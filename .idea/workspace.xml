@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4788788-0778-44ba-87b7-e07188b6d9a0" name="Default Changelist" comment="" />
+    <list default="true" id="d4788788-0778-44ba-87b7-e07188b6d9a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tdd/TennisScore$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tdd/TennisScore$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tdd/TennisScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tdd/TennisScore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tdd/TennisTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tdd/TennisTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TennisScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TennisScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TennisTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TennisTests.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +23,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QujBNOhTneotZFsQC72ekjRVlD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -44,25 +57,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.TennisTests">
-    <configuration name="TennisTddTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TennisTddTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TennisTddTest.Love_All" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TennisTddTest" />
-      <option name="METHOD_NAME" value="Love_All" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TennisTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,21 +66,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TennisTests.Love_All" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TennisTests.playerOneAdv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TennisTests" />
-      <option name="METHOD_NAME" value="Love_All" />
+      <option name="METHOD_NAME" value="playerOneAdv" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TennisTests.fifteen_Love" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TennisTests.playerTwoAdv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TennisTests" />
-      <option name="METHOD_NAME" value="fifteen_Love" />
+      <option name="METHOD_NAME" value="playerTwoAdv" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TennisTests.score_is_2_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TennisTests" />
+      <option name="METHOD_NAME" value="score_is_2_4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TennisTests.score_is_5_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TennisTests" />
+      <option name="METHOD_NAME" value="score_is_5_3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,10 +109,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TennisTests" />
-        <item itemvalue="JUnit.TennisTests.fifteen_Love" />
-        <item itemvalue="JUnit.TennisTests.Love_All" />
-        <item itemvalue="JUnit.TennisTddTest" />
-        <item itemvalue="JUnit.TennisTddTest.Love_All" />
+        <item itemvalue="JUnit.TennisTests.score_is_5_3" />
+        <item itemvalue="JUnit.TennisTests.score_is_2_4" />
+        <item itemvalue="JUnit.TennisTests.playerTwoAdv" />
+        <item itemvalue="JUnit.TennisTests.playerOneAdv" />
       </list>
     </recent_temporary>
   </component>
@@ -114,5 +128,16 @@
       <updated>1568627238355</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
