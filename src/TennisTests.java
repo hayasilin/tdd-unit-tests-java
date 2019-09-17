@@ -90,11 +90,6 @@ public class TennisTests {
         resultsShouldBe("Ron Win");
     }
 
-
-
-
-
-
     @Test
     public void Deuce_3_3() {
         sut.playerOneScored();
