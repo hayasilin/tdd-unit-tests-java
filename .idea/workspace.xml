@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d4788788-0778-44ba-87b7-e07188b6d9a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tdd/TennisScore$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tdd/TennisScore$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tdd/TennisScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tdd/TennisScore.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tdd/TennisTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tdd/TennisTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TennisScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TennisScore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TennisTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TennisTests.java" afterDir="false" />
@@ -63,11 +65,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TennisTests.Love_All" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TennisTests.playerOneAdv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TennisTests" />
-      <option name="METHOD_NAME" value="Love_All" />
+      <option name="METHOD_NAME" value="playerOneAdv" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TennisTests.playerOneWin_5_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TennisTests" />
+      <option name="METHOD_NAME" value="playerOneWin_5_3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,21 +95,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TennisTests.score_is_2_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TennisTests.playerTwoWin_2_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TennisTests" />
-      <option name="METHOD_NAME" value="score_is_2_4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TennisTests.score_is_5_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TennisTests" />
-      <option name="METHOD_NAME" value="score_is_5_3" />
+      <option name="METHOD_NAME" value="playerTwoWin_2_4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,10 +108,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TennisTests" />
-        <item itemvalue="JUnit.TennisTests.Love_All" />
-        <item itemvalue="JUnit.TennisTests.score_is_5_3" />
-        <item itemvalue="JUnit.TennisTests.score_is_2_4" />
+        <item itemvalue="JUnit.TennisTests.playerTwoWin_2_4" />
+        <item itemvalue="JUnit.TennisTests.playerOneWin_5_3" />
         <item itemvalue="JUnit.TennisTests.playerTwoAdv" />
+        <item itemvalue="JUnit.TennisTests.playerOneAdv" />
       </list>
     </recent_temporary>
   </component>
@@ -136,5 +138,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tdd$TennisTests.ic" NAME="TennisTests Coverage Results" MODIFIED="1568716250667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

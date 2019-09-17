@@ -4,41 +4,11 @@ import static junit.framework.TestCase.assertEquals;
 
 public class TennisTests {
 
-    private final TennisScore sut = new TennisScore("Ace", "Ron");
+    private final TennisScore sut = new TennisScore("Ace", "Ben");
 
     @Test
-    public void Love_All() {
-        resultsShouldBe("Love All");
-    }
-
-    @Test
-    public void fifteen_Love() {
-        givenPlayerOneScored(1);
-        resultsShouldBe("Fifteen Love");
-    }
-
-    @Test
-    public void thirty_Love() {
-        givenPlayerOneScored(2);
-        resultShouldBe("Thirty Love");
-    }
-
-    @Test
-    public void fourty_Love() {
-        givenPlayerOneScored(3);
-        resultShouldBe("Forty Love");
-    }
-
-    @Test
-    public void love_Fifteen() {
-        givenPlayerTwoScored(1);
-        resultShouldBe("Love Fifteen");
-    }
-
-    @Test
-    public void love_Thirty() {
-        givenPlayerTwoScored(2);
-        resultShouldBe("Love Thirty");
+    public void loveAll() {
+        resultShouldBe("Love All");
     }
 
     @Test
@@ -49,16 +19,32 @@ public class TennisTests {
     }
 
     @Test
-    public void deuce_3_3() {
-        givenDeuce();
-        resultShouldBe("Deuce");
+    public void fifteenLove() {
+        givenPlayerOneScored(1);
+        resultShouldBe("Fifteen Love");
     }
 
     @Test
-    public void deuce_4_4() {
-        givenDeuce();
-        givenPlayerOneScored(1);
+    public void thirtyLove() {
+        givenPlayerOneScored(2);
+        resultShouldBe("Thirty Love");
+    }
+
+    @Test
+    public void loveFifteen() {
         givenPlayerTwoScored(1);
+        resultShouldBe("Love Fifteen");
+    }
+
+    @Test
+    public void loveThirty() {
+        givenPlayerTwoScored(2);
+        resultShouldBe("Love Thirty");
+    }
+
+    @Test
+    public void deuce() {
+        givenDeuce();
         resultShouldBe("Deuce");
     }
 
@@ -73,39 +59,21 @@ public class TennisTests {
     public void playerTwoAdv() {
         givenDeuce();
         givenPlayerTwoScored(1);
-        resultsShouldBe("Ron Adv");
+        resultShouldBe("Ben Adv");
     }
 
     @Test
-    public void score_is_5_3() {
-        givenDeuce();
-        givenPlayerOneScored(2);
-        resultsShouldBe("Ace Win");
+    public void playerOneWin_5_3() {
+        givenPlayerOneScored(5);
+        givenPlayerTwoScored(3);
+        resultShouldBe("Ace Win");
     }
 
     @Test
-    public void score_is_2_4() {
+    public void playerTwoWin_2_4() {
         givenPlayerOneScored(2);
         givenPlayerTwoScored(4);
-        resultsShouldBe("Ron Win");
-    }
-
-    @Test
-    public void Deuce_3_3() {
-        sut.playerOneScored();
-        sut.playerOneScored();
-        sut.playerOneScored();
-
-        sut.playerTwoScored();
-        sut.playerTwoScored();
-        sut.playerTwoScored();
-
-        resultsShouldBe("Deuce");
-
-    }
-
-    private void resultsShouldBe(String expected) {
-        assertEquals(expected, sut.score());
+        resultShouldBe("Ben Win");
     }
 
     private void givenDeuce() {
@@ -119,13 +87,15 @@ public class TennisTests {
         }
     }
 
-    private void resultShouldBe(String expected) {
-        assertEquals(expected, sut.score());
-    }
-
     private void givenPlayerOneScored(int times) {
         for (int i = 0; i < times; i++) {
             sut.playerOneScored();
         }
     }
+
+    private void resultShouldBe(String expected) {
+        assertEquals(expected, sut.score());
+    }
+
+
 }
