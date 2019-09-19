@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4788788-0778-44ba-87b7-e07188b6d9a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Tennis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tdd/TennisScore$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tdd/TennisScore$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tdd/TennisScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tdd/TennisScore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tdd/TennisScore$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tdd/TennisScore.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tdd/TennisTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tdd/TennisTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TennisScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TennisScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TennisScore.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TennisTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TennisTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QujBNOhTneotZFsQC72ekjRVlD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -37,6 +40,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -133,7 +137,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
